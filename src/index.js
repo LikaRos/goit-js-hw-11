@@ -77,16 +77,16 @@ const ligthbox = new SimpleLightbox('.photo-card a', {
 });
 ligthbox.refresh();
 
-const observer = new IntersectionObserver(
-  (entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        observer.unobserve(entry.target);
-        fetch();
-      }
-    });
-  },
-  {
-    threshold: 0.5,
-  }
-);
+// const observer = new IntersectionObserver(
+//   (entries, observer) => {
+//     entries.forEach(entry => {
+//       if (entry.isIntersecting) {
+//         observer.unobserve(entry.target);
+//         fetch();
+//       }
+//     });
+//   },
+//   {
+//     threshold: 0.5,
+//   }
+// );
