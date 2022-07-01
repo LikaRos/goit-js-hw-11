@@ -11,22 +11,39 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
-#search-box {
-  font: inherit;
-  padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
-}
-
-li {
-  list-style: none;
-}
-.list-item {
+.info-item {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  margin-right: 20px;
+  text-align: center;
 }
-.country-title {
-  font-size: 34px;
-  margin-left: 10px;
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+.picture {
+  width: 400px;
+}
+
+.photo-card {
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.search-form {
+  height: 50px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-bottom: 30px;
 }
