@@ -47,3 +47,7 @@ body {
   align-content: center;
   margin-bottom: 30px;
 }
+
+.hide {
+  display: none;
+}
